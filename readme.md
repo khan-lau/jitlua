@@ -10,7 +10,7 @@
 2. 使用cgo, buid时需要依赖[LuaJit 2.1](https://github.com/LuaJIT/LuaJIT)
 
 ## 编译
-1. 下载LuaJit源码, 在其目录下执行`make -C ./`
+1. 下载LuaJit源码, 将其放置于工程的`lib`目录下, 在其目录下执行`make -C ./`
 2. 编译 jitLua demo, 在jitLua目录下执行`make`
 3. 执行`cd dist && ./jitlua_example && cd -`
 
